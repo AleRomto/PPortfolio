@@ -1,0 +1,41 @@
+.side-navbar {
+  width: 250px;
+  height: 100%;
+  position: fixed;
+  margin-left: -300px;
+  background-color: #D4ABEF;
+  transition: 0.5s;
+  color: #000000;
+}
+
+.nav-link img {
+  width: 100px;
+  height: auto;
+}
+
+.nav-link a {
+  text-decoration: none;
+  cursor: pointer; 
+}
+.nav-link:active,
+.nav-link:focus,
+.nav-link:hover {
+  background-color: #ffffff26;
+}
+
+
+.my-container {
+  transition: 0.4s;
+}
+
+
+.active-nav {
+  margin-left: 0;
+}
+
+/* Estilos para el contenedor cuando el menú lateral está oculto */
+.active-cont {
+  margin-left: 250px;
+}
+
+

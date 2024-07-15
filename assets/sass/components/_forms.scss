@@ -1,0 +1,14 @@
+
+.contact-form form {
+    box-shadow: 5px gray;
+}
+
+.contact-form input[type="text"],
+.contact-form textarea {
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
